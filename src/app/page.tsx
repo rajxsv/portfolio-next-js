@@ -10,8 +10,8 @@ import { LiaLinkedinIn } from "react-icons/lia";
 
 export default function Page() {
   return (
-    <div className="w-full" >
-      <HeroHighlight className="w-full" >
+    <div className="w-full">
+      <HeroHighlight className="w-full">
         <motion.h1
           initial={{
             opacity: 0,
@@ -27,27 +27,27 @@ export default function Page() {
           }}
           className="text-2xl w-full px-4 md:text-4xl flex justify-center lg:text-4xl font-bold text-neutral-700 dark:text-white  leading-relaxed lg:leading-snug text-center mx-auto "
         >
-          <div className="flex w-4/5 justify-evenly">
+          <div className="sm:flex w-4/5 justify-evenly">
             <div className="flex flex-col justify-center items-center">
               <Highlight className="text-white w-max">
                 Hi 👋🏻 I'm Rajpreet Singh
               </Highlight>
               Checkout my work , contact me if you like !
             </div>
-            <img className=" rounded-full" src="https://pbs.twimg.com/profile_images/1632658338239619072/QJ5kBZKm_400x400.jpg"></img>
+            <img
+              className=" rounded-full"
+              src="https://pbs.twimg.com/profile_images/1632658338239619072/QJ5kBZKm_400x400.jpg"
+            ></img>
           </div>
         </motion.h1>
         <div className="flex flex-wrap gap-5 mt-40 justify-center">
-
           <a href="https://github.com/rajxsv">
             <div className="flex justify-center text-center">
-
               <HoverBorderGradient
                 containerClassName="rounded-full"
                 as="button"
                 className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
               >
-                
                 <FiGithub />
                 <span>Github</span>
               </HoverBorderGradient>
