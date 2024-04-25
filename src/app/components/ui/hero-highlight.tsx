@@ -2,7 +2,7 @@
 import { cn } from "../../utils/cn";
 import { useMotionValue, motion, useMotionTemplate } from "framer-motion";
 import React from "react";
-import "/Users/rajpreetsingh/Documents/Code/NEXT-JS/app-1/src/app/globals.css"
+
 
 export const HeroHighlight = ({
   children,
