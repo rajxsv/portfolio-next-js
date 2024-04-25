@@ -4,4 +4,11 @@
 
 html{
   background-color: rgb(0, 0, 0);
+} 
+body {
+  min-height: 100%;
+}
+
+.gray {
+  background-color: rgb(17, 17, 17);
 }

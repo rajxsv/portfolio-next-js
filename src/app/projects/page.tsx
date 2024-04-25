@@ -5,6 +5,7 @@ import { HoverEffect } from "../components/ui/card-hover-effect";
 
 import { WavyBackground } from "../components/ui/wavy-background";
 
+
 const projects = [
   {
     title: "DSA HUB",
@@ -53,7 +54,7 @@ export default function page() {
             Projects
           </p>
           <p className="text-base md:text-lg mt-4 text-white font-normal inter-var text-center">
-            Projects that Make you understand the Software World
+          "Every great developer you know got there by solving problems they were unqualified to solve until they actually did it." - Patrick McKenzie
           </p>
         </WavyBackground>
       </header>
@@ -61,6 +62,8 @@ export default function page() {
         <div className="max-w-5xl mx-auto px-8">
           <HoverEffect items={projects} />
         </div>
+
+
       </main>
     </>
   );

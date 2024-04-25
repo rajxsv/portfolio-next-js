@@ -2,6 +2,7 @@
 import { cn } from "../../utils/cn";
 import { useMotionValue, motion, useMotionTemplate } from "framer-motion";
 import React from "react";
+import "/Users/rajpreetsingh/Documents/Code/NEXT-JS/app-1/src/app/globals.css"
 
 export const HeroHighlight = ({
   children,
@@ -29,7 +30,7 @@ export const HeroHighlight = ({
   return (
     <div
       className={cn(
-        "mt-32 h-[50rem] flex items-center bg-white dark:bg-black justify-center w-full group",
+        "mt-30 h-screen flex items-center bg-white dark:bg-black justify-center w-full group",
         containerClassName
       )}
       onMouseMove={handleMouseMove}

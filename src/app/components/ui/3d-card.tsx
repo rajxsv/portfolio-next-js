@@ -49,7 +49,7 @@ export const CardContainer = ({
     <MouseEnterContext.Provider value={[isMouseEntered, setIsMouseEntered]}>
       <div
         className={cn(
-          "py-20 h-svh flex items-center justify-center",
+          "py-20 flex h-full items-center justify-center",
           containerClassName
         )}
         style={{
@@ -62,7 +62,7 @@ export const CardContainer = ({
           onMouseMove={handleMouseMove}
           onMouseLeave={handleMouseLeave}
           className={cn(
-            "flex h-screen p-40 items-center justify-center relative transition-all duration-200 ease-linear",
+            "flex p-40 items-center justify-center relative transition-all duration-200 ease-linear",
             className
           )}
           style={{
@@ -86,7 +86,7 @@ export const CardBody = ({
   return (
     <div
       className={cn(
-        "h-64 w-64 [transform-style:preserve-3d]  [&>*]:[transform-style:preserve-3d]",
+        "h-64 w-64 [transform-style:preserve-3d] bg-neutral-900 [&>*]:[transform-style:preserve-3d]",
         className
       )}
     >

@@ -7,8 +7,8 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <CardContainer className="w-3/5 h-full  items-center justify-center flex">
-      <CardBody className="bg-gray-50 gap-10 flex flex-col relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto min-w-[20rem] sm:min-w-[30rem] h-auto rounded-xl p-6 border  ">
+    <CardContainer className="w-3/5 items-center justify-center flex">
+      <CardBody className="bg-gray-50 gap-10 flex flex-col relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto min-w-[20rem] sm:min-w-[30rem] h-full rounded-xl p-6 border  ">
         <CardItem
           translateZ="50" 
           className="text-xl font-bold text-neutral-600 dark:text-white"
